@@ -25,3 +25,8 @@ Turns out our teams have retired numbers
 
 ## Notes on what we did
 As we move through, we'll do out best to capture what we've done to get to the point we are
+
+- Update/Install ruby/rails
+- Update/install postgres
+- Pull down the project
+- 

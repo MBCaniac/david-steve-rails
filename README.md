@@ -9,7 +9,7 @@ In order to learn rails, we devised a simple app idea in order to have something
 - As a user, I should be able to see a page of an individual player.
 - When a user is created it should generate a number based on a players name. 
 -- Numbers belong to the player and should never repeat.
--- We want to take the number of characters in the players name and multiple that by 4. If that number is already taken add 1 until the number is not taken. If the number is over 99, set the number to the last two digits of the equation. (I.E. number is 112, the players number would be set to 12).
+-- We want to take the number of characters in the players name and multiple that by 4. If that number is already taken add 1 until the number is not taken. If the number is over 99, set the number to the last two digits of the equation. (I.E. number is 112, the players number would be set to 13).
 
 ### Story 2
 A new requirement has come in

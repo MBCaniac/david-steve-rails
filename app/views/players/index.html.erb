@@ -1,0 +1,13 @@
+<h1>List of all Players</h1>
+<div>
+  <% @players.each do |player| %>
+    <div class='player-element'>
+      <strong>
+        <%= "Name: #{player.name}, Number: #{player.number}" %>
+      </strong>
+    </div>
+    <div>
+      <%= link_to 'Click here to view player', player %>
+    </div>
+  <% end %>
+</div>

@@ -25,8 +25,8 @@ development:
   <<: *default
   database: steve_rails_development
   pool: 5
-  username: steve_rails
-  password: postgres
+  username: caniac
+  password: 
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -85,5 +85,5 @@ test:
 production:
   <<: *default
   database: steve_rails_production
-  username: steve_rails
+  username: caniac
   password: <%= ENV["STEVE_RAILS_DATABASE_PASSWORD"] %>

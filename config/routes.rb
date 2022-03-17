@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   resources :players
+
+  get '/s/:slug', to: 'links#show', as: :short
 end

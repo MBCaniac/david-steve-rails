@@ -1,0 +1,27 @@
+body {
+  background: black;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.player-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  flex-direction: column;
+}
+
+
+.player-number {
+  color: red;
+  font-size: 100px;
+  border: white solid 4px;
+}
+
+.player-element {
+  padding: 12px 0;
+}

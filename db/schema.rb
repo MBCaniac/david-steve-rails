@@ -11,16 +11,23 @@
 # It's strongly recommended that you check this file into your version control system.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2022_02_06_012547) do
 =======
 ActiveRecord::Schema.define(version: 2022_03_17_144145) do
 >>>>>>> bd721e5 (test)
+=======
+ActiveRecord::Schema.define(version: 2022_03_17_144145) do
+>>>>>>> b927c0341583e7d9a3ebfab98ab6bf5d44d6adf4
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b927c0341583e7d9a3ebfab98ab6bf5d44d6adf4
   create_table "links", force: :cascade do |t|
     t.string "url"
     t.string "slug"
@@ -29,7 +36,10 @@ ActiveRecord::Schema.define(version: 2022_03_17_144145) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+<<<<<<< HEAD
 >>>>>>> bd721e5 (test)
+=======
+>>>>>>> b927c0341583e7d9a3ebfab98ab6bf5d44d6adf4
   create_table "players", force: :cascade do |t|
     t.string "name", null: false
     t.integer "number"
